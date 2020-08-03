@@ -1,5 +1,9 @@
 # Intro to Object Oriented Programming
 
+## Instructions
+
+Fork this repo, then run `git clone` to download it locally. Then `cd` into the downloaded directory and open it in your text editor with `code .`.
+
 There are two files in this assignment: `run.rb` and `models/clown.rb`. You'll be working on implementing a Clown class in the `models/clown.rb` file by following the deliverables below. Use the `run.rb` to create seed data (sample instances of your class) and test the methods that you write out.
 
 Here are some of the skills you'll be practicing in this assignment:
@@ -63,3 +67,14 @@ Write out the following methods in `models/clown.rb`:
     - *return* a single Clown instance for the clown with the highest age.
 - [ ] `Clown.fearless`
     - *return* an array of Clown instances who have overcome their fears (i.e. their fears is `nil`)
+
+
+## Submitting
+
+When you’re finished, run the following commands in your terminal to submit:
+
+```
+git add .
+git commit -m 'Done'
+git push
+```
